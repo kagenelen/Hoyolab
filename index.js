@@ -15,6 +15,7 @@ const endpoints = {
 let hasErrors = false
 
 async function main() {
+  args = ["hsr", "gi", "zzz", "hi3"];
   if (!args.length) {
     log('error', 'Argument is empty!')
     log('info', 'Usage:   node index.js [zzz] [gi] [hsr] [hi3] [tot]')
