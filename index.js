@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const args = ["hsr", "gi", "zzz", "hi3"]
+const args = process.argv.slice(2)
 const cookie = process.env.COOKIE
 const discordWebhook = process.env.DISCORD_WEBHOOK
 const messages = []
